@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    
+}
+
+.logo{
+    display: flex;
+    color: #fff;
+    height: 5rem;
+    width: 100%;
+}
+
+.logo-head{
+  margin-left: 2rem;
+    height:3rem ;
+    width: 3rem;
+    margin-top: 1rem;
+    border-radius: 50%;
+    background-color: black;
+
+}
+.logo-head img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+.title{
+    color: #fff;
+    width: 3rem;
+    font-size: 1.5rem;
+    margin-top: 1.7rem;
+    margin-left: 0.5rem;
+}
+
+.number-type1{
+    text-align: center;
+    font-size: 1.3rem;
+}
+.Input-type-fOpTaL{
+   appearance: none;
+    font-weight: 400;
+    font-family: var(--font-family, CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+   width: 500px;
+   height: 3rem;
+   left: 2rem;
+   border: 1px solid #fff;
+   
+}
+
+
+.number-type5{
+    display: flex;
+     width: 80%; 
+     justify-content: space-between;
+} 
+
+.main-part{
+    width: 90%;
+    padding: 10%;
+    align-items: center;
+   
+    
+}
+
+
+.Select-number-type{
+    appearance: none;
+    width: 150px;
+    height: 3rem;
+    background-color: #1212;
+    color: #fff;
+  
+}
+
+input[type=text]{
+    padding-left: 50px;
+}
+.Group-number-type{
+    margin-left: 3rem;
+}
+
+.Button-number-type{
+    appearance: none;
+    width: 30%;
+    height: 2.5rem;
+    margin-left: 20%;
+    border-radius: 2rem;
+    background-color: #1bd760;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Type__TypeElement{
+    background-color: #1bd760;
+}
+@media (max-width: 768px) {
+    .Select-number-type{
+        width: 80px;
+    }
+    .Input-type-fOpTaL{
+        width: 450px;
+       
+    }
+}

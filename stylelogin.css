@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    
+}
+.head{
+    height: 4rem;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    
+}
+.logo-img{
+
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    margin: 1rem;
+    
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.form-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86%;
+    width: 324px;
+    /* background-color: blue; */
+    margin: auto;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.heading{
+    font-size: 2rem;
+    font-weight: 800;
+}
+p{
+    margin-top: 2rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+.form-content{
+    display: block;
+    
+}
+input[type=email]{
+    padding-left: 10px;
+}
+
+
+.emailfm{
+    appearance: none;
+    width: 324px;
+    height: 3rem;
+    border: 1px solid white;
+    align-items: center;
+    text-align: justify;
+    margin: auto;
+    
+    margin-top: 0.5rem;
+    border-radius: 0.2rem;
+    color: #fff;
+    cursor: text;
+}
+.requirment a{
+    color: #1bd760;
+}
+.emailfm:hover{
+    border: 1px solid red;
+}
+
+.emailfm:active{
+    border: 1px solid red;
+}
+.btnn{
+    appearance: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #1bd760;
+    height: 3rem;
+    width: 324px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    border-radius: 2rem;
+}
+.logos{
+    float: left;
+     text-decoration: none;
+     color: red;
+     background-color: black;
+     width: 1.5rem;
+     margin-left: 1rem;
+     margin-top: 0.52rem;
+     font-size: 25px;
+     transition: 0.3s ease;
+     
+ }
+ 
+ .logos:hover{
+     color: #ff7200;
+ }
+::placeholder{
+    font-size: 1rem;
+    margin-right: 1rem;
+    color: #fff;
+    font-family: Arial ;
+    cursor: text;
+}
+
+.line{
+    
+    margin-top: 3rem;
+    position: relative;
+    height: 1px ;
+    color: #fff;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    opacity: 0.7;
+    
+}
+.icons{
+    display: block;
+    margin-top: 3rem;
+    /* color: #fff; */
+}
+.icon{
+    text-decoration: none;
+    display: block;
+   
+    border: 1px solid #fff;
+   text-align: center;
+  justify-content: center;
+    height: 3rem;
+    width: 324px;
+    margin: auto;
+    
+    
+    color: white;
+    border-radius: 2rem;
+    opacity: 0.7;
+   
+
+}
+.icon:hover{
+    opacity: 1;
+}
+
+.icon a{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    
+    cursor: pointer;
+
+}
+
+
+.icon i{
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    
+    
+}
+
+.type{
+ font-size: 1rem;
+ font-family: sans-serif;
+ font-weight: 400;
+ text-align: center;
+ 
+}
+
+.lognn a{
+    color: #fff;
+    font-weight: bold;
+   
+   
+}
+
+.logn{
+    opacity: 0.7;
+}
+
+.last{
+    text-align: center;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.conditions a{
+    text-align: center;
+    font-size: 0.75rem;
+    color: #fff;
+    opacity: 0.7;
+   
+}
+
+.conditions{
+    margin-left: 2rem;
+    font-size: 0.75rem;
+}
+
+
+
+.icons a:hover{
+    color: #ff7200;
+}
+
+.file{
+    margin-top: 3rem;
+}
